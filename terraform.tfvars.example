@@ -1,0 +1,8 @@
+# Copy this file to terraform.tfvars and fill in your values.
+# terraform.tfvars is gitignored — never commit real credentials.
+
+vps_ip               = "1.2.3.4"
+ssh_user             = "root"
+ssh_private_key_path = "~/.ssh/id_rsa"
+k3s_version          = "v1.30.0+k3s1"
+argocd_gitops_repo   = "https://github.com/boeing/go-ledger-x-gitops"
